@@ -2,9 +2,10 @@ doctrine:
     dbal:
         # configure these for your database server
         url: '%env(resolve:DATABASE_URL)%'
-        dbname: test_DB
+        dbname: DBRecords
         host: localhost
         port: 3306
         user: root
         password: null
         driver: mysql
+        server_version: '5.7'
